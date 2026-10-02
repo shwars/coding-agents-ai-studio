@@ -1,0 +1,33 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "provider": {
+    "yandex": {
+      "npm": "@ai-sdk/openai-compatible",
+      "name": "Yandex Cloud (Алиса AI Про)",
+      "options": {
+        "baseURL": "https://apps.ai.api.cloud.yandex.net/v1",
+        "headers": {
+          "OpenAI-Project": "<folder-id>"
+        }
+      },
+      "models": {
+        "deepseek-v4-flash": {
+          "id": "gpt://<folder-id>/deepseek-v4-flash/latest",
+          "name": "DeepSeek V4 Flash",
+          "interleaved": { "field": "reasoning_content" },
+          "limit": { "context": 1048576, "output": 32768 }
+        },
+        "deepseek-v4.1-flash": {
+          "id": "gpt://<folder-id>/deepseek-v4.1-flash/latest",
+          "name": "DeepSeek V4.1 Flash",
+          "interleaved": { "field": "reasoning_content" },
+          "limit": { "context": 1048576, "output": 32768 },
+          "modalities": {
+            "input": ["text", "image"],
+            "output": ["text"]
+          }
+        }
+      }
+    }
+  }
+}

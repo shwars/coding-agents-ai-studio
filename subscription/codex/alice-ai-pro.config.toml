@@ -1,0 +1,19 @@
+model = "gpt://<folder-id>/deepseek-v4.1-flash/latest"
+model_provider = "yc"
+model_catalog_json = "~/.codex/alice-ai-pro.models_catalog.json"
+
+# Reasoning включён — модель отдаёт цепочку рассуждений
+model_supports_reasoning_summaries = true
+model_reasoning_effort = "medium"
+model_reasoning_summary = "auto"
+
+[model_providers.yc]
+name = "Yandex Cloud"
+base_url = "https://apps.ai.api.cloud.yandex.net/v1"
+wire_api = "responses"
+env_key = "YC_IAM_TOKEN"
+requires_openai_auth = false
+supports_websockets = false
+request_max_retries = 8
+stream_max_retries = 20
+stream_idle_timeout_ms = 900000

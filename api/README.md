@@ -15,7 +15,8 @@
 
 | Документ | О чём | Готовый конфиг |
 |---|---|---|
-| [OpenCode](opencode.md) | Провайдер `@ai-sdk/openai-compatible` с API-ключом | [`opencode/config.json`](opencode/config.json) |
+| [OpenCode v2](opencode-v2.md) | Нативный формат v2: `providers`, `package`, `capabilities` | [`opencode-v2/config.json`](opencode-v2/config.json) |
+| [OpenCode v1](opencode.md) | Провайдер `@ai-sdk/openai-compatible` с API-ключом | [`opencode/config.json`](opencode/config.json) |
 | [Codex CLI](codex.md) | Профиль Codex с API-ключом и каталогом моделей | [`codex/yandex-ai-studio.config.toml`](codex/yandex-ai-studio.config.toml), [`codex/yandex-ai-studio-catalog.json`](codex/yandex-ai-studio-catalog.json) |
 
 YCodex по API-ключу не подключается — он работает только по подписке

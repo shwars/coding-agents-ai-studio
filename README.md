@@ -5,9 +5,15 @@
 
 | Агент | По подписке (рекомендуется) | По API-ключу |
 |---|---|---|
-| **OpenCode** | [клик](subscription/opencode.md) | [клик](api/opencode.md) |
+| **OpenCode v2** | [клик](subscription/opencode-v2.md) | [клик](api/opencode-v2.md) |
+| **OpenCode v1** | [клик](subscription/opencode.md) | [клик](api/opencode.md) |
 | **Codex CLI** | [клик](subscription/codex.md) | [клик](api/codex.md) |
 | **YCodex** | [клик](subscription/ycodex.md) | не поддерживается |
+
+> **OpenCode v1 или v2?** У OpenCode две версии, и для каждой в репозитории своя
+> инструкция и свой готовый конфиг. Версия 2 — актуальная, для новой установки берите её;
+> инструкции для v1 оставлены для тех, у кого агент уже настроен. Конфиг формата v1
+> работает и в v2 — OpenCode нормализует старые поля на лету.
 
 ## По подписке «Алиса AI Про»
 
@@ -18,7 +24,8 @@ API-ключ не нужен. Это рекомендуемый способ: п
 
 Подробности:
 
-- [OpenCode по подписке](subscription/opencode.md)
+- [OpenCode v2 по подписке](subscription/opencode-v2.md)
+- [OpenCode v1 по подписке](subscription/opencode.md)
 - [Codex CLI по подписке](subscription/codex.md)
 - [YCodex](subscription/ycodex.md)
 
@@ -34,7 +41,8 @@ API-ключ не нужен. Это рекомендуемый способ: п
 Подробности:
 
 - [Общий порядок и предупреждение о стоимости](api/README.md)
-- [OpenCode по API-ключу](api/opencode.md)
+- [OpenCode v2 по API-ключу](api/opencode-v2.md)
+- [OpenCode v1 по API-ключу](api/opencode.md)
 - [Codex CLI по API-ключу](api/codex.md)
 
 ## SourceCraft CLI

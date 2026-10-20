@@ -1,5 +1,8 @@
 # Подключение OpenCode к подписке «Алиса AI Про»
 
+> **Это инструкция для OpenCode 1.** Для актуальной версии агента см.
+> [OpenCode v2 по подписке](opencode-v2.md).
+
 [OpenCode](https://opencode.ai) подключается к подписке **Алиса AI Про** как обычный
 OpenAI-совместимый провайдер (`@ai-sdk/openai-compatible`). Авторизация — по IAM-токену
 Yandex Cloud, который выпускается командой `yc iam create-token`.
@@ -122,4 +125,5 @@ curl https://apps.ai.api.cloud.yandex.net/v1/chat/completions \
 
 - [Codex CLI по подписке](codex.md)
 - [YCodex](ycodex.md)
+- [OpenCode v2 по подписке](opencode-v2.md)
 - Профиль сообщества: <https://github.com/serjnarbut/yandex-aistudio-profile>

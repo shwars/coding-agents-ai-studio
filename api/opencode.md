@@ -6,6 +6,9 @@
 > кодинг-агента может прожечь заметную сумму. Для постоянной работы используйте
 > [подписку «Алиса AI Про»](../subscription/opencode.md).
 
+> **Это инструкция для OpenCode 1.** Для актуальной версии агента см.
+> [OpenCode v2 по API-ключу](opencode-v2.md).
+
 OpenCode подключается к Yandex AI Studio как OpenAI-совместимый провайдер
 (`@ai-sdk/openai-compatible`), но вместо IAM-токена используется статический
 **API-ключ** сервисного аккаунта.
@@ -166,4 +169,5 @@ curl https://ai.api.cloud.yandex.net/v1/chat/completions \
 
 - [Codex CLI по API-ключу](codex.md)
 - [Общее предупреждение и настройка API-ключа](README.md)
-- [OpenCode по подписке](../subscription/opencode.md)
+- [OpenCode v2 по API-ключу](opencode-v2.md)
+- [OpenCode v1 по подписке](../subscription/opencode.md)
